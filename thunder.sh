@@ -1,1 +1,3 @@
-python3 update.py && python3 -m Thunder
+#!/bin/bash
+source "$(dirname "$0")/venv/bin/activate"
+python update.py && python -m Thunder
